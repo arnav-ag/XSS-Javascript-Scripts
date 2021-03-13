@@ -1,5 +1,5 @@
 <?php
 
-header("Location: file:///etc/passwd");
+header("Location: file:///etc/passwd", TRUE, 301);
 
 ?>
